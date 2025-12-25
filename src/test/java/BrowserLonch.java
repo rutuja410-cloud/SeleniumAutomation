@@ -12,13 +12,13 @@ public class BrowserLonch
     public void setup()
     {
         driver = new ChromeDriver();
-        driver.get("https://www.saucedemo.com/v1/index.html");
+
     }
 
     @Test
     public void login()
     {
-
+        driver.get("https://www.saucedemo.com/v1/index.html");
     }
 
     @AfterMethod
